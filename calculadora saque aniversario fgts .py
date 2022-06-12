@@ -1,6 +1,9 @@
+import os
+os.system("cls") #limpar terminal
+
 saldo = float (input("digite seu saldo do fgts. \n"))
 
-
+os.system("cls")
 # aqui sera feito o calculo para saldos ate 500 reais, onde o saque é de 50%
 if saldo < 500.01:
     saque = saldo * 0.5
